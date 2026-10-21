@@ -1,0 +1,24 @@
+{
+  "source": "../demo.vsdx",
+  "source_sha256": "0F4EF41ED3FDF16248D8D1022A5FD8C8F33014EFAD04414B9B8A915CB58A3209",
+  "renderer": "Microsoft Visio",
+  "visio_version": "16.0",
+  "dpi": 300,
+  "opened": true,
+  "pages": [
+    {
+      "page": 1,
+      "name": "Synthetic demo",
+      "top_level_shapes": 7,
+      "png": "page-001_preview.png",
+      "sha256": "601A61C834CE8A0CE71E2600941AD7A4B90FF9EB36B10EE21ADA6AFF7FAEC0F9"
+    }
+  ],
+  "visual_review": {
+    "status": "passed",
+    "date": "2026-10-21",
+    "scope": "Included synthetic diagram only",
+    "observations": "Labels are readable; arrows connect the three blocks; no clipped text was observed."
+  },
+  "path_base": "render.json directory"
+}

@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "kind": "synthetic editable-output demo",
+  "source": "demo.vsdx",
+  "generation": {
+    "status": "passed",
+    "passed": true,
+    "page_mm": [
+      80,
+      60
+    ],
+    "font": "Times New Roman",
+    "font_pt": 6,
+    "shape_count": 7,
+    "native_glued_connectors": 2,
+    "visio_version": "16.0",
+    "test_shape_ids": {
+      "resize_block": 2,
+      "move_block": 4,
+      "connector": 6
+    }
+  },
+  "render": {
+    "status": "passed",
+    "passed": true,
+    "renderer": "Microsoft Visio",
+    "manifest": "render/render.json",
+    "visual_review": "Required separately"
+  },
+  "interaction": {
+    "status": "completed",
+    "passed": true,
+    "tested_disposable_copy": true,
+    "reopened_after_save": true,
+    "resize": {
+      "passed": true,
+      "shape": 2,
+      "width_multiplier": 1.2,
+      "before": {
+        "left_in": 0.19685039370078744,
+        "bottom_in": 1.0629921259842523,
+        "right_in": 0.9842519506694765,
+        "top_in": 1.5748031439743646,
+        "width_in": 0.787401556968689,
+        "height_in": 0.5118110179901123
+      },
+      "after": {
+        "left_in": 0.11811023622047245,
+        "bottom_in": 1.0629921259842523,
+        "right_in": 1.062992152266615,
+        "top_in": 1.5748031439743646,
+        "width_in": 0.9448819160461426,
+        "height_in": 0.5118110179901123
+      },
+      "expected_visible_width_increase_in": 0.15748031496062995,
+      "actual_visible_width_increase_in": 0.1574803590774536
+    },
+    "connector_following": {
+      "passed": true,
+      "connector": 6,
+      "target": 4,
+      "before_target_bounds": {
+        "left_in": 2.165354330708661,
+        "bottom_in": 1.0629921259842523,
+        "right_in": 2.95275588767735,
+        "top_in": 1.5748031439743646,
+        "width_in": 0.787401556968689,
+        "height_in": 0.5118110179901123
+      },
+      "after_target_bounds": {
+        "left_in": 2.165354330708661,
+        "bottom_in": 1.7716535433070875,
+        "right_in": 2.95275588767735,
+        "top_in": 2.2834645612971998,
+        "width_in": 0.787401556968689,
+        "height_in": 0.5118110179901123
+      },
+      "before_endpoint": {
+        "x_in": 2.165354330708661,
+        "y_in": 1.318897637795276
+      },
+      "after_endpoint": {
+        "x_in": 2.165354330708661,
+        "y_in": 2.027559055118111
+      },
+      "expected_target_delta_y_in": 0.7086614173228347,
+      "target_delta_y_in": 0.7086614173228352,
+      "endpoint_delta_x_in": 0.0,
+      "endpoint_delta_y_in": 0.7086614173228352,
+      "endpoint_distance_moved_in": 0.7086614173228352,
+      "distance_to_new_boundary_in": 0.0,
+      "tolerance_in": 0.001,
+      "checks": {
+        "target_moved_expected_amount": true,
+        "old_new_target_bounds_separated": true,
+        "endpoint_position_changed": true,
+        "endpoint_on_new_target_boundary": true,
+        "endpoint_outside_old_target_bounds": true,
+        "native_glue_relationship_persisted": true
+      },
+      "persisted_end_y_formula": "_WALKGLUE(EndTrigger,BegTrigger,WalkPreference)",
+      "persisted_glue": [
+        {
+          "from_shape": 6,
+          "from_cell": "EndX",
+          "to_shape": 4,
+          "to_cell": "PinX"
+        }
+      ]
+    }
+  },
+  "failure": null,
+  "source_unchanged": true
+}

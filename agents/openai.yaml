@@ -1,0 +1,4 @@
+interface:
+  display_name: "Editable Visio Recreation"
+  short_description: "Recreate image diagrams as editable Visio files."
+  default_prompt: "Use $editable-visio-recreation to recreate this diagram image as an editable Visio .vsdx with a verified preview."

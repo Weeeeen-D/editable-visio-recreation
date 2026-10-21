@@ -1,0 +1,10 @@
+{
+  "journal-small": {
+    "max_width_mm": 80,
+    "max_height_mm": 60,
+    "font_pt": 6,
+    "cjk_font": "SimSun",
+    "western_font": "Times New Roman"
+  },
+  "source": {}
+}

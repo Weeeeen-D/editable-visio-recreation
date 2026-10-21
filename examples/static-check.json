@@ -1,0 +1,28 @@
+{
+  "file": "demo.vsdx",
+  "static_ok": true,
+  "errors": [],
+  "warnings": [],
+  "pages": [
+    {
+      "id": "0",
+      "part": "visio/pages/page1.xml",
+      "width_mm": 80.0,
+      "height_mm": 60.0,
+      "shape_count": 7
+    }
+  ],
+  "shapes": 7,
+  "text_shapes": 5,
+  "connections": 4,
+  "unverified": [
+    "Actual Visio opening/rendering",
+    "Visual fidelity and text clipping",
+    "Interactive resizing and connector following",
+    "Master/style inheritance and font substitution"
+  ],
+  "sha256": "0f4ef41ed3fdf16248d8d1022a5fd8c8f33014efad04414b9b8a915cb58a3209",
+  "media_parts": [],
+  "embedded_parts": [],
+  "path_base": "static-check.json directory"
+}
